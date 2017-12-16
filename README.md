@@ -9,6 +9,7 @@ A simple forum application built with the following technologies:
 Demo app is deployed on Heroku. Please check it out: https://motorbikeforum.herokuapp.com/
 
 ### Application Features
+* Users can view different models of motorbike.
 * Users can post a discussion
 * Users can reply their opinions regarding discussion
 * Users can like their favorite discussions
