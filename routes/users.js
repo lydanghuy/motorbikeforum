@@ -142,7 +142,7 @@ router.post('/forgot', function(req, res, next) {
          service: 'Gmail',
          auth: {
            user: 'motorbikeforum@gmail.com',
-           pass: 'whatdoyoumean'
+           pass: 'xxxxxxx'
          }
        });
        var mailOptions = {
@@ -224,7 +224,7 @@ var temp_username, temp_password, temp_firstname, temp_lastname, temp_email;
         service: 'Gmail',
         auth: {
           user: 'motorbikeforum@gmail.com',
-          pass: 'whatdoyoumean'
+          pass: 'xxxxxxx'
         }
       });
       var mailOptions = {
