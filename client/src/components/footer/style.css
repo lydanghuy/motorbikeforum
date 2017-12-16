@@ -1,0 +1,58 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+#myFooter{
+        margin-top:2%;
+       flex: 0 0 auto;
+       -webkit-flex: 0 0 auto;
+    }
+    #myFooter p{
+        padding-bottom: 2%
+    }
+    #myFooter {
+        background-color: #0275d8 !important;
+        color: white;
+        padding-top: 30px;
+    }
+    
+    .container1{
+        margin-top:0
+    }
+    
+    #myFooter .row {
+        margin-bottom: 0px;
+    }
+    
+    
+    #myFooter .footer-copyright p {
+        margin: 10px;
+        color: #ccc;
+    }
+    
+    #myFooter ul {
+        list-style-type: none;
+        padding-left: 0;
+        line-height: 1.7;
+    }
+    
+    #myFooter h5 {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    #myFooter h2 a{
+        font-size: 50px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #myFooter a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #myFooter a:hover,
+    #myFooter a:focus {
+        text-decoration: none;
+        color: white;
+    }

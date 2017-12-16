@@ -1,0 +1,89 @@
+.mystyle {
+    color: white;
+    font-weight: bold;
+    font-size: 110%
+}
+.forum{
+    color: white;
+}
+.headstyle {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(161, 78, 78);
+    color: white;
+    padding: 0 6% 0 6%
+}
+.navstyle {
+    background-color: #0275d8;
+    border-radius: 10px;
+    z-index: 20;
+    border-top: solid 1px;
+    border-bottom: solid 1px
+    /* padding: 10px 10% 10px 10%; */
+   
+}
+
+.carousel {
+    margin: 2% 0 2% 0;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+.nav-link{
+    font-size: 150%;
+    border-left: solid 0.5px;
+
+}
+.col-lg-3{
+    /* border-right: solid 0.5px; */
+    padding-top: 0.5%;
+    text-align: center;
+    /* color: black; */
+}
+.form-inline{
+    width:auto
+}
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0275d8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+a{
+    color: white
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #0275d8}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,13 @@
+.emailrow{
+    padding-top:2%;
+    padding-left: 5%;
+    font-weight: bold;
+    height: 300px
+}
+.email-forget{
+    width:50%;
+    height: 35px
+}
+input[type="email"]:invalid{
+    box-shadow: 0 0 5px 5px red;
+}
