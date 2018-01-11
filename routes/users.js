@@ -32,15 +32,17 @@ router.route('/').get(authenticate.verifyUser, function(req, res, next) {
 });
 
 router.post('/signup', function(req,res,next){
-    let err = 0;
-    let user =  User.findOne({ email: req.body.email});
-    if(user){
-      err = -1;
-    }
-    if(err < 0){
-      return res.json({err, msg:"Email exists"});
-    }
-    else{
+ 
+    
+    //console.log(req.body.email);
+
+    User.findOne({ email: req.body.email}).exec(function (err, results) {
+      
+      if(results){
+        return res.json({err:-1, msg:"Email exists"});
+      }
+    
+      else{
           //register new user
           User.register(new User({username: req.body.username}), req.body.password,
           (err,user) =>{
@@ -77,8 +79,9 @@ router.post('/signup', function(req,res,next){
             }
         });
     }
+  });
+    
 });
-
 router.post('/login', function (req, res, next) {
   passport.authenticate('local', function (err, user, info) {
       if (err) {
